@@ -1,0 +1,61 @@
+@import 'reset/reset';
+
+body {
+	font-family: sans-serif;
+}
+
+main {
+	&.wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+header {
+	color: #fff;
+	background: #000;
+	text-align: center;
+	padding: 50px;
+	h1 {
+		font-size: 4em;
+	}
+	h2 {
+		font-size: 2em;
+		line-height: 2;
+	}
+}
+
+.box-divs {
+	border: solid 1px #296eb1;
+	margin: 20px 0;
+	h3 {
+		background: #296eb1;
+		color: #fff;
+		padding: 5px 10px;
+	}
+	table {
+		width: 95%;
+		margin: 0 auto 15px;
+		tr {
+			td {
+				padding-right: 10px;
+			}
+		}
+	}
+}
+
+.heading {
+	font-weight: bold;
+	border-bottom: 1px solid #296eb1;
+}
+
+.form-group {
+	text-align: center;
+	label {
+		display: block;
+	}
+}
+
+.form-control {
+	width: 95%;
+}

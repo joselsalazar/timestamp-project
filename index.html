@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<main class="wrapper">
+		<header>
+			<h1>Employee Data Management</h1>
+			<h2>A Comprehensive Directory of Employee Billable Hours</h2>
+		</header>
+
+		<div class="box-divs current">
+			<h3>Current Employees</h3>
+			<table class="employee-form">
+				<tr class="heading">
+					<td>Employee Name</td>
+					<td>Role</td>
+					<td>Start Date</td>
+					<td>Months Worked</td>
+					<td>Monthly Rate</td>
+					<td>Total Billed</td>
+				</tr>
+				
+			</table>
+		</div>
+
+		<div id="displayed-data"></div>
+
+		<div class="box-divs add-employee">
+			<h3>Add Employee</h3>
+			<form>
+			  <div class="form-group">
+			    <label for="employee">Employee Name</label>
+			    <input class="form-control" id="employee" type="text">
+			    <label for="role">Role</label>
+			    <input class="form-control" id="role" type="text">
+			    <label for="start-date">Start Date</label>
+			    <input class="form-control" id="start-date" type="text">
+			    <label for="months-worked">Months Worked</label>
+			    <input class="form-control" id="months-worked" type="text">
+			    <label for="monthly-rate">Monthly Rate</label>
+			    <input class="form-control" id="monthly-rate" type="text">
+			  </div>
+			  
+			  <button class="btn btn-primary" id="submit-employee" type="submit">Submit</button>
+			</form>
+		</div>
+	</main>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
